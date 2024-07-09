@@ -9,7 +9,7 @@
 // document.getElementById("myParagrap").textContent = `I like pizza!`;
 
 // this is a comment
- 
+
 // let age = 25;
 // let price =  10.99;
 // let gpa = 2.1;
@@ -28,7 +28,6 @@
 // console.log(`You like ${favoriteFood}`);
 // console.log(`Your Email is ${email}`);
 
-
 // let online = true;
 // let forSale = true;
 // let isStudent = true;
@@ -37,7 +36,6 @@
 // console.log(`Is this car for sale: ${forSale}`);
 // console.log(`Enrolled: ${isStudent}`);
 
-
 // let fullName = "Hemanth Kumar";
 // let age = 32;
 // let isStudent = false;
@@ -45,5 +43,46 @@
 // document.getElementById("p1").textContent = `Your name is ${fullName}`;
 // document.getElementById("p2").textContent = `You are ${age} years old`;
 // document.getElementById("p3").textContent = `Enrolled: ${isStudent}`;
+
+// arthmetic operations
+
+let students = 30;
+// students = students + 1;
+// students = students - 1;
+// students = students * 2;
+// students = students / 2;
+// students = students ** 2;
+// students = students % 2;
+// let extraStudents = students % 2;
+
+// students += 1;
+// students -= 1;
+// students *= 2;
+// students /= 2;
+// students **= 2;
+// students %= 2;
+
+// students++;
+// students--;
+// ++students;
+// --students;
+
+// console.log(students);
+
+
+
+
+
+/* 
+    operator precedence
+    1. parenthesis ()
+    2. exponents
+    3. multiplication & division & modulo
+    4. addition & subtraction
+*/
+
+let result = 1 + 2 * 3 + 4 ** 2;
+
+console.log(result);
 
 
