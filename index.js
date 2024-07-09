@@ -69,10 +69,6 @@ let students = 30;
 
 // console.log(students);
 
-
-
-
-
 /* 
     operator precedence
     1. parenthesis ()
@@ -81,8 +77,29 @@ let students = 30;
     4. addition & subtraction
 */
 
-let result = 1 + 2 * 3 + 4 ** 2;
+// let result = 1 + 2 * 3 + 4 ** 2;
 
-console.log(result);
+// console.log(result);
 
+/*
+    How to accept user input
 
+    1. Easy way == window prompt
+    2. Professional way = HTML textbox
+
+*/
+
+// window prompt
+
+// let userName;
+// userName = window.prompt("Whats your username?");
+// console.log(userName);
+
+// professional way
+
+let username;
+document.getElementById("mySubmit").onclick = function () {
+  username = document.getElementById("username").value;
+  document.getElementById("heading").textContent = `Hello ${username}`;
+  console.log(username);
+};
